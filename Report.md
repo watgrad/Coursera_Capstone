@@ -15,3 +15,23 @@ Location data from geopy / Nominatim - to connect the Fraser Institute school da
 Foursquare location data (www.foursquare.come) - the location data will be used to create a better picture of school communities (venues, amenities) to better inform families and school staff.
 
 Fraser Institute School Ranking data (https://www.fraserinstitute.org/school-performance) - these school ratings will be used to select schools for the analysis.  Rating data will be compared to the clustering results of the Foursquare community data for further discussion.  This may contain some school sites that will not be included in this report, as the schools are too small to represent a fuller community cluster.
+  
+# Methodology
+section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
+
+The school ranking data from the Fraser Institute was scraped and cleaned of null values and irrelevant schools (i.e. small independent schools).
+School geographic locations were assigned through geopy and a plot was created demponstrating that the schools represent an acceptable coverage of the Kitchener-Waterloo region.
+<figure class="image"><img src="schools.png" alt="Map of schools."><figcaption>The distribution of schools in the K-W area.</figcaption></figure><\center>
+
+The Fraser Institute data consists of school Ratings for the 2017-18 school year as well as provincial Rankings out of 3044 schools in the Province of Ontario.  The data was used to create an initial clustering of schools based on these two dimentions.  Euclidian distance was used for the K Means Clustering algorithim.  This algorithm was selected as it will handle of complexity of clustering school neighbourhoods with the large number of factors that will be included with FourSquare data during this analysis.  The 'elbow method' was used to select the best k-clusters value.
+# Results 
+section where you discuss the results.
+    
+# Discussion 
+section where you discuss any observations you noted and any recommendations you can make based on the results.
+    
+# Conclusion 
+section where you conclude the report.
+
+
+
