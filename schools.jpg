@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_79db4122bd16445dab66302f4f4c9da1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_79db4122bd16445dab66302f4f4c9da1" ></div>
+        
+</body>
+<script>    
+    
+            var map_79db4122bd16445dab66302f4f4c9da1 = L.map(
+                "map_79db4122bd16445dab66302f4f4c9da1",
+                {
+                    center: [43.466874, -80.524635],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a30e69258ea24652b970e53adb42c4f8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+            var circle_marker_dc90ef21ef474b7f9e296b7527291bdc = L.circleMarker(
+                [43.44231905, -80.5238679384629],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_6b9c9b38db7d4e509dd459e4493d5fbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f82a3256cddf4f2089a73e6b4f733c43 = $(`<div id="html_f82a3256cddf4f2089a73e6b4f733c43" style="width: 100.0%; height: 100.0%;">A R Kaufman Cluster 1 Rating: 2.3</div>`)[0];
+            popup_6b9c9b38db7d4e509dd459e4493d5fbb.setContent(html_f82a3256cddf4f2089a73e6b4f733c43);
+        
+
+        circle_marker_dc90ef21ef474b7f9e296b7527291bdc.bindPopup(popup_6b9c9b38db7d4e509dd459e4493d5fbb)
+        ;
+
+        
+    
+    
+            var circle_marker_9df03f0d60f449419362d155d3308bfc = L.circleMarker(
+                [43.47007045, -80.59776017234199],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_cfef887bd2334d9ca806d3c4617e733a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67ba94d390324388bc2ba96d5233263c = $(`<div id="html_67ba94d390324388bc2ba96d5233263c" style="width: 100.0%; height: 100.0%;">Abraham Erb Cluster 3 Rating: 8.5</div>`)[0];
+            popup_cfef887bd2334d9ca806d3c4617e733a.setContent(html_67ba94d390324388bc2ba96d5233263c);
+        
+
+        circle_marker_9df03f0d60f449419362d155d3308bfc.bindPopup(popup_cfef887bd2334d9ca806d3c4617e733a)
+        ;
+
+        
+    
+    
+            var circle_marker_f2d3e4c533874506b5af01597de844c0 = L.circleMarker(
+                [43.420092600000004, -80.4807398831765],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_5b7165087dd44f3886b6570abc75c115 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9e2c18ba7aa43b1a20d43a2b4f69e78 = $(`<div id="html_f9e2c18ba7aa43b1a20d43a2b4f69e78" style="width: 100.0%; height: 100.0%;">Alpine Cluster 3 Rating: 7.2</div>`)[0];
+            popup_5b7165087dd44f3886b6570abc75c115.setContent(html_f9e2c18ba7aa43b1a20d43a2b4f69e78);
+        
+
+        circle_marker_f2d3e4c533874506b5af01597de844c0.bindPopup(popup_5b7165087dd44f3886b6570abc75c115)
+        ;
+
+        
+    
+    
+            var circle_marker_9357128c2f0e4109bf39fa17f251f743 = L.circleMarker(
+                [43.407401, -80.483609687856],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_8bc0b5708d0d4de9b07e32cc3e09cf7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2152988f745b42819ab449476d846780 = $(`<div id="html_2152988f745b42819ab449476d846780" style="width: 100.0%; height: 100.0%;">Blessed Sacrament Cluster 3 Rating: 6.0</div>`)[0];
+            popup_8bc0b5708d0d4de9b07e32cc3e09cf7c.setContent(html_2152988f745b42819ab449476d846780);
+        
+
+        circle_marker_9357128c2f0e4109bf39fa17f251f743.bindPopup(popup_8bc0b5708d0d4de9b07e32cc3e09cf7c)
+        ;
+
+        
+    
+    
+            var circle_marker_d0a7e26aeadf4bc988b1fa44707a18e2 = L.circleMarker(
+                [43.48279435, -80.48666451523829],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_3365bfa408bb4363b42a99d9aaf8172f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e653fafa10544e6aa404a2f6bee23d7 = $(`<div id="html_4e653fafa10544e6aa404a2f6bee23d7" style="width: 100.0%; height: 100.0%;">Bridgeport Cluster 0 Rating: 6.8</div>`)[0];
+            popup_3365bfa408bb4363b42a99d9aaf8172f.setContent(html_4e653fafa10544e6aa404a2f6bee23d7);
+        
+
+        circle_marker_d0a7e26aeadf4bc988b1fa44707a18e2.bindPopup(popup_3365bfa408bb4363b42a99d9aaf8172f)
+        ;
+
+        
+    
+    
+            var circle_marker_30c3a1c538004790a62e7f29028a9a41 = L.circleMarker(
+                [43.38474885, -80.4553868950856],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_4c251d98d4444dbb9ed8f29e0e8c5fb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_655d6b6d5d134d2d90458a92fa5c0196 = $(`<div id="html_655d6b6d5d134d2d90458a92fa5c0196" style="width: 100.0%; height: 100.0%;">Brigadoon Cluster 2 Rating: 7.2</div>`)[0];
+            popup_4c251d98d4444dbb9ed8f29e0e8c5fb9.setContent(html_655d6b6d5d134d2d90458a92fa5c0196);
+        
+
+        circle_marker_30c3a1c538004790a62e7f29028a9a41.bindPopup(popup_4c251d98d4444dbb9ed8f29e0e8c5fb9)
+        ;
+
+        
+    
+    
+            var circle_marker_dee6f72f35884915af7fac7ceaff6a6d = L.circleMarker(
+                [43.461903899999996, -80.4466779764239],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_43132b93432848afb40e6ae0ecba9fca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee6a1078a9c94bf1aabcac32e9e4c451 = $(`<div id="html_ee6a1078a9c94bf1aabcac32e9e4c451" style="width: 100.0%; height: 100.0%;">Canadian Martyrs Cluster 0 Rating: 5.8</div>`)[0];
+            popup_43132b93432848afb40e6ae0ecba9fca.setContent(html_ee6a1078a9c94bf1aabcac32e9e4c451);
+        
+
+        circle_marker_dee6f72f35884915af7fac7ceaff6a6d.bindPopup(popup_43132b93432848afb40e6ae0ecba9fca)
+        ;
+
+        
+    
+    
+            var circle_marker_6c287e1998a442abaa037c79e11a3c2f = L.circleMarker(
+                [43.4077836, -80.4819615212744],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_3733b8a659de4a03b31232e992eac89c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0af687dee78d4906a2bcb9909b79e385 = $(`<div id="html_0af687dee78d4906a2bcb9909b79e385" style="width: 100.0%; height: 100.0%;">Cardinal-Léger Cluster 3 Rating: 6.0</div>`)[0];
+            popup_3733b8a659de4a03b31232e992eac89c.setContent(html_0af687dee78d4906a2bcb9909b79e385);
+        
+
+        circle_marker_6c287e1998a442abaa037c79e11a3c2f.bindPopup(popup_3733b8a659de4a03b31232e992eac89c)
+        ;
+
+        
+    
+    
+            var circle_marker_d93c74aafcc54dc6b51ed10e4e7cc848 = L.circleMarker(
+                [43.48772775, -80.5520390045751],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_6b88c39294db48ac83d89edfe0479491 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_597f3a6cc039470689853e6b4ea5dd61 = $(`<div id="html_597f3a6cc039470689853e6b4ea5dd61" style="width: 100.0%; height: 100.0%;">Cedarbrae Cluster 3 Rating: 5.0</div>`)[0];
+            popup_6b88c39294db48ac83d89edfe0479491.setContent(html_597f3a6cc039470689853e6b4ea5dd61);
+        
+
+        circle_marker_d93c74aafcc54dc6b51ed10e4e7cc848.bindPopup(popup_6b88c39294db48ac83d89edfe0479491)
+        ;
+
+        
+    
+    
+            var circle_marker_2ebc22935be44df0ad0181fc030212f9 = L.circleMarker(
+                [43.4451825, -80.41411500815191],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_7636c11cb4ee4946b136e72dd7e799e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_509b176a64d842c1a6cd77e7310280ed = $(`<div id="html_509b176a64d842c1a6cd77e7310280ed" style="width: 100.0%; height: 100.0%;">Chicopee Hills Cluster 2 Rating: 5.0</div>`)[0];
+            popup_7636c11cb4ee4946b136e72dd7e799e1.setContent(html_509b176a64d842c1a6cd77e7310280ed);
+        
+
+        circle_marker_2ebc22935be44df0ad0181fc030212f9.bindPopup(popup_7636c11cb4ee4946b136e72dd7e799e1)
+        ;
+
+        
+    
+    
+            var circle_marker_4b632b9a49934ef294aa6dcae4bb5bea = L.circleMarker(
+                [43.41335555, -80.4707269854407],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_6d692a71df95480db27cbba613f8fded = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a3282de28ca43eab77207717c88374c = $(`<div id="html_3a3282de28ca43eab77207717c88374c" style="width: 100.0%; height: 100.0%;">Country Hills Cluster 3 Rating: 3.2</div>`)[0];
+            popup_6d692a71df95480db27cbba613f8fded.setContent(html_3a3282de28ca43eab77207717c88374c);
+        
+
+        circle_marker_4b632b9a49934ef294aa6dcae4bb5bea.bindPopup(popup_6d692a71df95480db27cbba613f8fded)
+        ;
+
+        
+    
+    
+            var circle_marker_f0a6113e0c15403f9aaf629f507a3132 = L.circleMarker(
+                [43.454015500000004, -80.44196626374641],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_fd16dd24a2854353b924ff52dfce5df4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d38df9056cf455d859aa31afa39cfee = $(`<div id="html_4d38df9056cf455d859aa31afa39cfee" style="width: 100.0%; height: 100.0%;">Crestview Cluster 3 Rating: 5.6</div>`)[0];
+            popup_fd16dd24a2854353b924ff52dfce5df4.setContent(html_4d38df9056cf455d859aa31afa39cfee);
+        
+
+        circle_marker_f0a6113e0c15403f9aaf629f507a3132.bindPopup(popup_fd16dd24a2854353b924ff52dfce5df4)
+        ;
+
+        
+    
+    
+            var circle_marker_f87c7c6288ac43adbb394596c8a6e553 = L.circleMarker(
+                [43.41490885, -80.53682872984808],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_fc043d7acd3b4313bb675a00210ee82c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca47ae80c59d4168a3551f555643aef1 = $(`<div id="html_ca47ae80c59d4168a3551f555643aef1" style="width: 100.0%; height: 100.0%;">Driftwood Park Cluster 1 Rating: 5.1</div>`)[0];
+            popup_fc043d7acd3b4313bb675a00210ee82c.setContent(html_ca47ae80c59d4168a3551f555643aef1);
+        
+
+        circle_marker_f87c7c6288ac43adbb394596c8a6e553.bindPopup(popup_fc043d7acd3b4313bb675a00210ee82c)
+        ;
+
+        
+    
+    
+            var circle_marker_3d22f1fbb0e14330abb702a2d528579a = L.circleMarker(
+                [43.451171200000005, -80.5772467250968],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_a63fa02734ee4fe0b6ee4584229c8e0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43dd0bf12b1b4fc2b70d617c9ef15f9a = $(`<div id="html_43dd0bf12b1b4fc2b70d617c9ef15f9a" style="width: 100.0%; height: 100.0%;">Edna Staebler Cluster 1 Rating: 6.2</div>`)[0];
+            popup_a63fa02734ee4fe0b6ee4584229c8e0d.setContent(html_43dd0bf12b1b4fc2b70d617c9ef15f9a);
+        
+
+        circle_marker_3d22f1fbb0e14330abb702a2d528579a.bindPopup(popup_a63fa02734ee4fe0b6ee4584229c8e0d)
+        ;
+
+        
+    
+    
+            var circle_marker_26ec0093d01f4b79985d3e0e97661f21 = L.circleMarker(
+                [43.4652466, -80.51189465219771],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_4674d720d86b4d6b9481357f01844655 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af08c967b3864788b714f02469d13ad3 = $(`<div id="html_af08c967b3864788b714f02469d13ad3" style="width: 100.0%; height: 100.0%;">Elizabeth Ziegler Cluster 0 Rating: 7.2</div>`)[0];
+            popup_4674d720d86b4d6b9481357f01844655.setContent(html_af08c967b3864788b714f02469d13ad3);
+        
+
+        circle_marker_26ec0093d01f4b79985d3e0e97661f21.bindPopup(popup_4674d720d86b4d6b9481357f01844655)
+        ;
+
+        
+    
+    
+            var circle_marker_b58c6b3a8ec6457aac94b19c65ac131c = L.circleMarker(
+                [43.45498905, -80.53403086129741],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_7189b0366ee74609896c1881c1faa6dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_860ae5d782d74ee890e42239e7b64cb6 = $(`<div id="html_860ae5d782d74ee890e42239e7b64cb6" style="width: 100.0%; height: 100.0%;">Empire Cluster 1 Rating: 7.0</div>`)[0];
+            popup_7189b0366ee74609896c1881c1faa6dd.setContent(html_860ae5d782d74ee890e42239e7b64cb6);
+        
+
+        circle_marker_b58c6b3a8ec6457aac94b19c65ac131c.bindPopup(popup_7189b0366ee74609896c1881c1faa6dd)
+        ;
+
+        
+    
+    
+            var circle_marker_b5357cce2b2f4d839f69a58bcac978d3 = L.circleMarker(
+                [43.42594295, -80.5065468488717],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_15d66251f52040ba81988efeee2276f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ff3d22e4a2c47a292a5f9ed42dc74bc = $(`<div id="html_6ff3d22e4a2c47a292a5f9ed42dc74bc" style="width: 100.0%; height: 100.0%;">Forest Hill Cluster 1 Rating: 4.1</div>`)[0];
+            popup_15d66251f52040ba81988efeee2276f5.setContent(html_6ff3d22e4a2c47a292a5f9ed42dc74bc);
+        
+
+        circle_marker_b5357cce2b2f4d839f69a58bcac978d3.bindPopup(popup_15d66251f52040ba81988efeee2276f5)
+        ;
+
+        
+    
+    
+            var circle_marker_6ecba8e14fbd4a9d8973a8cb0c1639aa = L.circleMarker(
+                [43.44404375, -80.44721852094929],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_2ed1e4763dec4a96963d4086eb20a0ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbe2d407c25445aeb8f6c5840575e17d = $(`<div id="html_dbe2d407c25445aeb8f6c5840575e17d" style="width: 100.0%; height: 100.0%;">Franklin Cluster 1 Rating: 5.3</div>`)[0];
+            popup_2ed1e4763dec4a96963d4086eb20a0ea.setContent(html_dbe2d407c25445aeb8f6c5840575e17d);
+        
+
+        circle_marker_6ecba8e14fbd4a9d8973a8cb0c1639aa.bindPopup(popup_2ed1e4763dec4a96963d4086eb20a0ea)
+        ;
+
+        
+    
+    
+            var circle_marker_b246299e9dae4353b2a35f46b87b11dc = L.circleMarker(
+                [43.41048335, -80.4914373217115],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_b44929e92169409080a73c04bea25065 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6d89e3e912543d8a749474c3253de84 = $(`<div id="html_a6d89e3e912543d8a749474c3253de84" style="width: 100.0%; height: 100.0%;">Glencairn Cluster 3 Rating: 5.7</div>`)[0];
+            popup_b44929e92169409080a73c04bea25065.setContent(html_a6d89e3e912543d8a749474c3253de84);
+        
+
+        circle_marker_b246299e9dae4353b2a35f46b87b11dc.bindPopup(popup_b44929e92169409080a73c04bea25065)
+        ;
+
+        
+    
+    
+            var circle_marker_8a25c13a03014deea1b0542f117c031f = L.circleMarker(
+                [43.3717451, -80.4393828447528],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_fabd7e52214040058e81b668a0ee2c3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dad13f69404446fb8b6010b7c0c06825 = $(`<div id="html_dad13f69404446fb8b6010b7c0c06825" style="width: 100.0%; height: 100.0%;">Groh Cluster 5 Rating: 5.8</div>`)[0];
+            popup_fabd7e52214040058e81b668a0ee2c3d.setContent(html_dad13f69404446fb8b6010b7c0c06825);
+        
+
+        circle_marker_8a25c13a03014deea1b0542f117c031f.bindPopup(popup_fabd7e52214040058e81b668a0ee2c3d)
+        ;
+
+        
+    
+    
+            var circle_marker_96498a1cfe5b44c7aecd1f89d2f25673 = L.circleMarker(
+                [43.4452235, -80.5537907331195],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_6d0c276028a64922aab5f17f7d2adccd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f002bd9f4f324251ba0488572d34a965 = $(`<div id="html_f002bd9f4f324251ba0488572d34a965" style="width: 100.0%; height: 100.0%;">Holy Rosary Cluster 3 Rating: 6.7</div>`)[0];
+            popup_6d0c276028a64922aab5f17f7d2adccd.setContent(html_f002bd9f4f324251ba0488572d34a965);
+        
+
+        circle_marker_96498a1cfe5b44c7aecd1f89d2f25673.bindPopup(popup_6d0c276028a64922aab5f17f7d2adccd)
+        ;
+
+        
+    
+    
+            var circle_marker_c4bf5295a73d47f28738bd141ea937c3 = L.circleMarker(
+                [43.4300125, -80.42953964214641],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_e7a2101218fe4bf1805a9c12ac001cf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a4195a5f41d47b8a691cd8bc55d6d84 = $(`<div id="html_7a4195a5f41d47b8a691cd8bc55d6d84" style="width: 100.0%; height: 100.0%;">Howard Robertson Cluster 1 Rating: 4.0</div>`)[0];
+            popup_e7a2101218fe4bf1805a9c12ac001cf1.setContent(html_7a4195a5f41d47b8a691cd8bc55d6d84);
+        
+
+        circle_marker_c4bf5295a73d47f28738bd141ea937c3.bindPopup(popup_e7a2101218fe4bf1805a9c12ac001cf1)
+        ;
+
+        
+    
+    
+            var circle_marker_88a86f828a684789bc2016e8982d72a6 = L.circleMarker(
+                [43.439313899999995, -80.504374575986],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_01f44bcdc48c4d5eb160063999b513e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e10db4bbaf14510b07559d1a506fcda = $(`<div id="html_5e10db4bbaf14510b07559d1a506fcda" style="width: 100.0%; height: 100.0%;">J F Carmichael Cluster 0 Rating: 3.2</div>`)[0];
+            popup_01f44bcdc48c4d5eb160063999b513e7.setContent(html_5e10db4bbaf14510b07559d1a506fcda);
+        
+
+        circle_marker_88a86f828a684789bc2016e8982d72a6.bindPopup(popup_01f44bcdc48c4d5eb160063999b513e7)
+        ;
+
+        
+    
+    
+            var circle_marker_42dd955182fb49939488ad5a18068aa8 = L.circleMarker(
+                [43.3840899, -80.4394339936803],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_5cc99defb76348eebba916ab1967842a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fd1eee9cc5643fca105d09f2704f097 = $(`<div id="html_3fd1eee9cc5643fca105d09f2704f097" style="width: 100.0%; height: 100.0%;">J W Gerth Cluster 3 Rating: 6.9</div>`)[0];
+            popup_5cc99defb76348eebba916ab1967842a.setContent(html_3fd1eee9cc5643fca105d09f2704f097);
+        
+
+        circle_marker_42dd955182fb49939488ad5a18068aa8.bindPopup(popup_5cc99defb76348eebba916ab1967842a)
+        ;
+
+        
+    
+    
+            var circle_marker_0f3e819b5a8c4179885bc0fe55bef45b = L.circleMarker(
+                [43.38816575, -80.4841644368557],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_bb4db852f0b14a729b7fa2c5185f8391 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f757bd6f20c4030b811fac80337a586 = $(`<div id="html_0f757bd6f20c4030b811fac80337a586" style="width: 100.0%; height: 100.0%;">Jean Steckle Cluster 0 Rating: 6.1</div>`)[0];
+            popup_bb4db852f0b14a729b7fa2c5185f8391.setContent(html_0f757bd6f20c4030b811fac80337a586);
+        
+
+        circle_marker_0f3e819b5a8c4179885bc0fe55bef45b.bindPopup(popup_bb4db852f0b14a729b7fa2c5185f8391)
+        ;
+
+        
+    
+    
+            var circle_marker_e5b85c7962b84f52ada0642a3a9ede16 = L.circleMarker(
+                [43.42009275, -80.5466531291088],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_26f55d481a6e4be289fad62fb6e56a8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38cca1e47c784880be53f072227a9731 = $(`<div id="html_38cca1e47c784880be53f072227a9731" style="width: 100.0%; height: 100.0%;">John Darling Cluster 1 Rating: 5.2</div>`)[0];
+            popup_26f55d481a6e4be289fad62fb6e56a8e.setContent(html_38cca1e47c784880be53f072227a9731);
+        
+
+        circle_marker_e5b85c7962b84f52ada0642a3a9ede16.bindPopup(popup_26f55d481a6e4be289fad62fb6e56a8e)
+        ;
+
+        
+    
+    
+            var circle_marker_4f21b7c2b690433d91f67ff45fb89e98 = L.circleMarker(
+                [43.4084732, -80.5125455111303],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_6b43a7f763b741759798480f650e244d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64aec43d08f5426d97bdb20db4ff66e6 = $(`<div id="html_64aec43d08f5426d97bdb20db4ff66e6" style="width: 100.0%; height: 100.0%;">John Sweeney Cluster 0 Rating: 6.4</div>`)[0];
+            popup_6b43a7f763b741759798480f650e244d.setContent(html_64aec43d08f5426d97bdb20db4ff66e6);
+        
+
+        circle_marker_4f21b7c2b690433d91f67ff45fb89e98.bindPopup(popup_6b43a7f763b741759798480f650e244d)
+        ;
+
+        
+    
+    
+            var circle_marker_9da64fb29d4b466f8e395d02013f3b74 = L.circleMarker(
+                [43.4601098, -80.5457149364663],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_75c862c8ff314b9a87361e215be1a766 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b8eae14dba8468bb635f4ad8c585998 = $(`<div id="html_4b8eae14dba8468bb635f4ad8c585998" style="width: 100.0%; height: 100.0%;">Keatsway Cluster 0 Rating: 5.1</div>`)[0];
+            popup_75c862c8ff314b9a87361e215be1a766.setContent(html_4b8eae14dba8468bb635f4ad8c585998);
+        
+
+        circle_marker_9da64fb29d4b466f8e395d02013f3b74.bindPopup(popup_75c862c8ff314b9a87361e215be1a766)
+        ;
+
+        
+    
+    
+            var circle_marker_a45f08b27e5d440ab94aa34ec46447b8 = L.circleMarker(
+                [43.45423335, -80.5070238634455],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_7e65d0a5de0343e383273761a28b2c6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3415164c92404921825ca42984d4f527 = $(`<div id="html_3415164c92404921825ca42984d4f527" style="width: 100.0%; height: 100.0%;">King Edward Cluster 0 Rating: 3.0</div>`)[0];
+            popup_7e65d0a5de0343e383273761a28b2c6b.setContent(html_3415164c92404921825ca42984d4f527);
+        
+
+        circle_marker_a45f08b27e5d440ab94aa34ec46447b8.bindPopup(popup_7e65d0a5de0343e383273761a28b2c6b)
+        ;
+
+        
+    
+    
+            var circle_marker_24f70f1024e249c28259ddb031ade472 = L.circleMarker(
+                [50.7012819, 4.4010295],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_3c8d8ec51b994de3898f97c04a5eade9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67d1504b1dde4a5d82f4d7dcfb35b95b = $(`<div id="html_67d1504b1dde4a5d82f4d7dcfb35b95b" style="width: 100.0%; height: 100.0%;">L&#39;Harmonie Cluster 0 Rating: 6.7</div>`)[0];
+            popup_3c8d8ec51b994de3898f97c04a5eade9.setContent(html_67d1504b1dde4a5d82f4d7dcfb35b95b);
+        
+
+        circle_marker_24f70f1024e249c28259ddb031ade472.bindPopup(popup_3c8d8ec51b994de3898f97c04a5eade9)
+        ;
+
+        
+    
+    
+            var circle_marker_5704e3d3f1e449229a980e4762da4f90 = L.circleMarker(
+                [43.4523849, -80.418477350778],
+                {"bubblingMouseEvents": true, "color": "#1996f3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1996f3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_72470518a360467a9f2d2686bf39a7fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85f22bfd866a415f9d8805d7e9427c67 = $(`<div id="html_85f22bfd866a415f9d8805d7e9427c67" style="width: 100.0%; height: 100.0%;">Lackner Woods Cluster 2 Rating: 7.9</div>`)[0];
+            popup_72470518a360467a9f2d2686bf39a7fd.setContent(html_85f22bfd866a415f9d8805d7e9427c67);
+        
+
+        circle_marker_5704e3d3f1e449229a980e4762da4f90.bindPopup(popup_72470518a360467a9f2d2686bf39a7fd)
+        ;
+
+        
+    
+    
+            var circle_marker_a4513e6ca7d34b7c8d728c91940fee03 = L.circleMarker(
+                [43.46926455, -80.5748918821046],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_08c4af8327794afbae7253f0c4d87733 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_849c81a04cc749cca5ca585af4c22c8d = $(`<div id="html_849c81a04cc749cca5ca585af4c22c8d" style="width: 100.0%; height: 100.0%;">Laurelwood Cluster 0 Rating: 8.2</div>`)[0];
+            popup_08c4af8327794afbae7253f0c4d87733.setContent(html_849c81a04cc749cca5ca585af4c22c8d);
+        
+
+        circle_marker_a4513e6ca7d34b7c8d728c91940fee03.bindPopup(popup_08c4af8327794afbae7253f0c4d87733)
+        ;
+
+        
+    
+    
+            var circle_marker_05fa169b59774aba9f95ecdd3b7ec1e5 = L.circleMarker(
+                [43.5068852, -80.50653576885709],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_ef5e3ec7baf44a858087904f2661a3ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e86a092f9624bd89ad0b832f3df2700 = $(`<div id="html_2e86a092f9624bd89ad0b832f3df2700" style="width: 100.0%; height: 100.0%;">Lester B Pearson Cluster 3 Rating: 6.9</div>`)[0];
+            popup_ef5e3ec7baf44a858087904f2661a3ad.setContent(html_2e86a092f9624bd89ad0b832f3df2700);
+        
+
+        circle_marker_05fa169b59774aba9f95ecdd3b7ec1e5.bindPopup(popup_ef5e3ec7baf44a858087904f2661a3ad)
+        ;
+
+        
+    
+    
+            var circle_marker_7b8aa12c43284df0aef1dcd0f53335d5 = L.circleMarker(
+                [43.5012874, -80.49672364327259],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_ca02b00b6a9544c8ade105e41181a145 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ea6363ecc5c44c99cf5b5a85f06c78b = $(`<div id="html_5ea6363ecc5c44c99cf5b5a85f06c78b" style="width: 100.0%; height: 100.0%;">Lexington Cluster 3 Rating: 7.5</div>`)[0];
+            popup_ca02b00b6a9544c8ade105e41181a145.setContent(html_5ea6363ecc5c44c99cf5b5a85f06c78b);
+        
+
+        circle_marker_7b8aa12c43284df0aef1dcd0f53335d5.bindPopup(popup_ca02b00b6a9544c8ade105e41181a145)
+        ;
+
+        
+    
+    
+            var circle_marker_cb2080797fec41f4a060d29307308d45 = L.circleMarker(
+                [43.4821721, -80.5083564519535],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_31a6c85941264ae498a9228b1b1ac59f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3947484aee434526a5103c4b0c3693ee = $(`<div id="html_3947484aee434526a5103c4b0c3693ee" style="width: 100.0%; height: 100.0%;">Lincoln Heights Cluster 1 Rating: 3.6</div>`)[0];
+            popup_31a6c85941264ae498a9228b1b1ac59f.setContent(html_3947484aee434526a5103c4b0c3693ee);
+        
+
+        circle_marker_cb2080797fec41f4a060d29307308d45.bindPopup(popup_31a6c85941264ae498a9228b1b1ac59f)
+        ;
+
+        
+    
+    
+            var circle_marker_2d51091f74724e0191e4bd9e9ab1ee84 = L.circleMarker(
+                [43.4657256, -80.44751310353621],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_711d7c10b1194d298f909d342384c67e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f358dbfcc56f495bbb06580ea1e06143 = $(`<div id="html_f358dbfcc56f495bbb06580ea1e06143" style="width: 100.0%; height: 100.0%;">MacKenzie King Cluster 0 Rating: 6.5</div>`)[0];
+            popup_711d7c10b1194d298f909d342384c67e.setContent(html_f358dbfcc56f495bbb06580ea1e06143);
+        
+
+        circle_marker_2d51091f74724e0191e4bd9e9ab1ee84.bindPopup(popup_711d7c10b1194d298f909d342384c67e)
+        ;
+
+        
+    
+    
+            var circle_marker_6c6a22fa5bf64b409baf15c3c9fe3410 = L.circleMarker(
+                [43.45848955, -80.5636294874684],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_d243a856199149bf986cd8837fd0a1c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bab08b99db7b4707ba32c3eaf83bca27 = $(`<div id="html_bab08b99db7b4707ba32c3eaf83bca27" style="width: 100.0%; height: 100.0%;">Mary Johnston Cluster 3 Rating: 7.2</div>`)[0];
+            popup_d243a856199149bf986cd8837fd0a1c9.setContent(html_bab08b99db7b4707ba32c3eaf83bca27);
+        
+
+        circle_marker_6c6a22fa5bf64b409baf15c3c9fe3410.bindPopup(popup_d243a856199149bf986cd8837fd0a1c9)
+        ;
+
+        
+    
+    
+            var circle_marker_261f19fc4c764856baa9136515dec016 = L.circleMarker(
+                [43.4187273, -80.5270180668541],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_62b3d65123da4712932fa3a84065a4dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af0656913e884e8cac060d190a3d4484 = $(`<div id="html_af0656913e884e8cac060d190a3d4484" style="width: 100.0%; height: 100.0%;">Meadowlane Cluster 1 Rating: 4.7</div>`)[0];
+            popup_62b3d65123da4712932fa3a84065a4dd.setContent(html_af0656913e884e8cac060d190a3d4484);
+        
+
+        circle_marker_261f19fc4c764856baa9136515dec016.bindPopup(popup_62b3d65123da4712932fa3a84065a4dd)
+        ;
+
+        
+    
+    
+            var circle_marker_82a6af3f07a14fa6b32248d71aad7bfc = L.circleMarker(
+                [43.513493100000005, -80.5046848177445],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_dc1a7202993c490d81b6f89da2aec0eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7ed10be4c694004899aee7ced15e50c = $(`<div id="html_a7ed10be4c694004899aee7ced15e50c" style="width: 100.0%; height: 100.0%;">Millen Woods Cluster 0 Rating: 7.8</div>`)[0];
+            popup_dc1a7202993c490d81b6f89da2aec0eb.setContent(html_a7ed10be4c694004899aee7ced15e50c);
+        
+
+        circle_marker_82a6af3f07a14fa6b32248d71aad7bfc.bindPopup(popup_dc1a7202993c490d81b6f89da2aec0eb)
+        ;
+
+        
+    
+    
+            var circle_marker_0a0d36871f6f4313aacf6f9a7a034168 = L.circleMarker(
+                [43.41841779999999, -80.4927709458733],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_67b471ca498b4adda153be320e0ee15a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0021ade702dd41b0adce6a9da389a6c5 = $(`<div id="html_0021ade702dd41b0adce6a9da389a6c5" style="width: 100.0%; height: 100.0%;">Monsignor Haller Cluster 1 Rating: 4.4</div>`)[0];
+            popup_67b471ca498b4adda153be320e0ee15a.setContent(html_0021ade702dd41b0adce6a9da389a6c5);
+        
+
+        circle_marker_0a0d36871f6f4313aacf6f9a7a034168.bindPopup(popup_67b471ca498b4adda153be320e0ee15a)
+        ;
+
+        
+    
+    
+            var circle_marker_9e179de576274ee3a87b2b10c6112807 = L.circleMarker(
+                [43.48341545, -80.51018994321299],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_62edecad45e2475083ad7adf101fd88d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d07ecf71ee840cca39a537d60b20519 = $(`<div id="html_4d07ecf71ee840cca39a537d60b20519" style="width: 100.0%; height: 100.0%;">Mère-Élisabeth-Bruyère Cluster 1 Rating: 7.3</div>`)[0];
+            popup_62edecad45e2475083ad7adf101fd88d.setContent(html_4d07ecf71ee840cca39a537d60b20519);
+        
+
+        circle_marker_9e179de576274ee3a87b2b10c6112807.bindPopup(popup_62edecad45e2475083ad7adf101fd88d)
+        ;
+
+        
+    
+    
+            var circle_marker_a5c5b20952ce47f1a18e84c516160f74 = L.circleMarker(
+                [43.489683500000005, -80.5618477977088],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_a29e6539d6504d6d967a045ab5fbe396 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bf39b6d9bcc462da93e97505cb4df9a = $(`<div id="html_4bf39b6d9bcc462da93e97505cb4df9a" style="width: 100.0%; height: 100.0%;">N A MacEachern Cluster 5 Rating: 7.0</div>`)[0];
+            popup_a29e6539d6504d6d967a045ab5fbe396.setContent(html_4bf39b6d9bcc462da93e97505cb4df9a);
+        
+
+        circle_marker_a5c5b20952ce47f1a18e84c516160f74.bindPopup(popup_a29e6539d6504d6d967a045ab5fbe396)
+        ;
+
+        
+    
+    
+            var circle_marker_5c5296293bd7488cba0da0184b0c11c9 = L.circleMarker(
+                [43.4963718, -80.5648132138492],
+                {"bubblingMouseEvents": true, "color": "#ff964f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff964f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_89628c5c7dd440fa89fbdd5ed1eed0a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b4d53518c06429a84be3b71dfe70760 = $(`<div id="html_8b4d53518c06429a84be3b71dfe70760" style="width: 100.0%; height: 100.0%;">Northlake Woods Cluster 5 Rating: 7.2</div>`)[0];
+            popup_89628c5c7dd440fa89fbdd5ed1eed0a3.setContent(html_8b4d53518c06429a84be3b71dfe70760);
+        
+
+        circle_marker_5c5296293bd7488cba0da0184b0c11c9.bindPopup(popup_89628c5c7dd440fa89fbdd5ed1eed0a3)
+        ;
+
+        
+    
+    
+            var circle_marker_77fc91bbc78041148c7a6e15b47febc5 = L.circleMarker(
+                [43.45883995, -80.53105221285841],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_91d54cb41cb546958a6cc189841284f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e549916410bd43e3a8528fa5c963adc9 = $(`<div id="html_e549916410bd43e3a8528fa5c963adc9" style="width: 100.0%; height: 100.0%;">Our Lady of Lourdes Cluster 0 Rating: 7.9</div>`)[0];
+            popup_91d54cb41cb546958a6cc189841284f3.setContent(html_e549916410bd43e3a8528fa5c963adc9);
+        
+
+        circle_marker_77fc91bbc78041148c7a6e15b47febc5.bindPopup(popup_91d54cb41cb546958a6cc189841284f3)
+        ;
+
+        
+    
+    
+            var circle_marker_997a1a43a6314e6286fc219731e79374 = L.circleMarker(
+                [43.39678355, -80.4437213151299],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_840a0b506ac247cabd037b9ef1dfe03c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03ef8c774f98444f82994a9fdbb4a062 = $(`<div id="html_03ef8c774f98444f82994a9fdbb4a062" style="width: 100.0%; height: 100.0%;">Pioneer Park Cluster 3 Rating: 5.5</div>`)[0];
+            popup_840a0b506ac247cabd037b9ef1dfe03c.setContent(html_03ef8c774f98444f82994a9fdbb4a062);
+        
+
+        circle_marker_997a1a43a6314e6286fc219731e79374.bindPopup(popup_840a0b506ac247cabd037b9ef1dfe03c)
+        ;
+
+        
+    
+    
+            var circle_marker_91cc7e59d67f44149ab213409b826801 = L.circleMarker(
+                [43.46897535, -80.4911228133381],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_57549e39e10c4f6790bd501c3037b9a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fc16425016b439fad4819b9cc6b94af = $(`<div id="html_1fc16425016b439fad4819b9cc6b94af" style="width: 100.0%; height: 100.0%;">Prueter Cluster 0 Rating: 3.8</div>`)[0];
+            popup_57549e39e10c4f6790bd501c3037b9a7.setContent(html_1fc16425016b439fad4819b9cc6b94af);
+        
+
+        circle_marker_91cc7e59d67f44149ab213409b826801.bindPopup(popup_57549e39e10c4f6790bd501c3037b9a7)
+        ;
+
+        
+    
+    
+            var circle_marker_20056b1e592b4d5f9d84c8e3db36020f = L.circleMarker(
+                [43.4301204, -80.48551995882191],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_f391820b0570407390deb9d2770ba94b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e994e86a39b7439fa8526ae2d5de183d = $(`<div id="html_e994e86a39b7439fa8526ae2d5de183d" style="width: 100.0%; height: 100.0%;">Queen Elizabeth Cluster 1 Rating: 3.5</div>`)[0];
+            popup_f391820b0570407390deb9d2770ba94b.setContent(html_e994e86a39b7439fa8526ae2d5de183d);
+        
+
+        circle_marker_20056b1e592b4d5f9d84c8e3db36020f.bindPopup(popup_f391820b0570407390deb9d2770ba94b)
+        ;
+
+        
+    
+    
+            var circle_marker_1d42f20205684efa87c08032e32882d9 = L.circleMarker(
+                [43.4287303, -80.46336958478241],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_6f9b35aac4c04675a51e3aeb653e581b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0706e83b60264dd1bf9f90e5e72fb31e = $(`<div id="html_0706e83b60264dd1bf9f90e5e72fb31e" style="width: 100.0%; height: 100.0%;">Rockway Cluster 0 Rating: 3.5</div>`)[0];
+            popup_6f9b35aac4c04675a51e3aeb653e581b.setContent(html_0706e83b60264dd1bf9f90e5e72fb31e);
+        
+
+        circle_marker_1d42f20205684efa87c08032e32882d9.bindPopup(popup_6f9b35aac4c04675a51e3aeb653e581b)
+        ;
+
+        
+    
+    
+            var circle_marker_b544f37d48aa418db728c9a9ad7db18a = L.circleMarker(
+                [43.432725899999994, -80.54390469177659],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_d77aca433a7d480db89446a35c5e1964 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dffeacd287cb42fdb167bdbc1e746b67 = $(`<div id="html_dffeacd287cb42fdb167bdbc1e746b67" style="width: 100.0%; height: 100.0%;">Sandhills Cluster 1 Rating: 6.3</div>`)[0];
+            popup_d77aca433a7d480db89446a35c5e1964.setContent(html_dffeacd287cb42fdb167bdbc1e746b67);
+        
+
+        circle_marker_b544f37d48aa418db728c9a9ad7db18a.bindPopup(popup_d77aca433a7d480db89446a35c5e1964)
+        ;
+
+        
+    
+    
+            var circle_marker_1760dcf120f34b5ead256bf563305a1d = L.circleMarker(
+                [43.4917955, -80.50647181334891],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_d9ef8186890a4f0fad68df15dcc149b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce1e6712ad394c1da46e52c608e9f6dc = $(`<div id="html_ce1e6712ad394c1da46e52c608e9f6dc" style="width: 100.0%; height: 100.0%;">Sandowne Cluster 1 Rating: 5.2</div>`)[0];
+            popup_d9ef8186890a4f0fad68df15dcc149b9.setContent(html_ce1e6712ad394c1da46e52c608e9f6dc);
+        
+
+        circle_marker_1760dcf120f34b5ead256bf563305a1d.bindPopup(popup_d9ef8186890a4f0fad68df15dcc149b9)
+        ;
+
+        
+    
+    
+            var circle_marker_85b23e11784b47df9409e31c30b75a08 = L.circleMarker(
+                [43.44701135, -80.4718380491857],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_6d16ef295d7f45ddac439f1393c2bcc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70842d8c490344adb93246af4685b377 = $(`<div id="html_70842d8c490344adb93246af4685b377" style="width: 100.0%; height: 100.0%;">Sheppard Cluster 0 Rating: 6.6</div>`)[0];
+            popup_6d16ef295d7f45ddac439f1393c2bcc7.setContent(html_70842d8c490344adb93246af4685b377);
+        
+
+        circle_marker_85b23e11784b47df9409e31c30b75a08.bindPopup(popup_6d16ef295d7f45ddac439f1393c2bcc7)
+        ;
+
+        
+    
+    
+            var circle_marker_bb2f14caf0674cb394e27b194bf9fab2 = L.circleMarker(
+                [43.49142235, -80.55460235],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_ef5c9bf2f906481b8f225175a065d3e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67edc5a65c8749ddb7195ed16e5f5329 = $(`<div id="html_67edc5a65c8749ddb7195ed16e5f5329" style="width: 100.0%; height: 100.0%;">Sir Edgar Bauer Cluster 3 Rating: 5.8</div>`)[0];
+            popup_ef5c9bf2f906481b8f225175a065d3e5.setContent(html_67edc5a65c8749ddb7195ed16e5f5329);
+        
+
+        circle_marker_bb2f14caf0674cb394e27b194bf9fab2.bindPopup(popup_ef5c9bf2f906481b8f225175a065d3e5)
+        ;
+
+        
+    
+    
+            var circle_marker_17e1c646a5294ae193c6cf8cad8b871c = L.circleMarker(
+                [43.454516399999996, -80.4616527536768],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_57f1e8f426b246ccb30061acb149f8d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e51271670d7b4f84a3b9da015bae3a84 = $(`<div id="html_e51271670d7b4f84a3b9da015bae3a84" style="width: 100.0%; height: 100.0%;">Smithson Cluster 3 Rating: 6.6</div>`)[0];
+            popup_57f1e8f426b246ccb30061acb149f8d4.setContent(html_e51271670d7b4f84a3b9da015bae3a84);
+        
+
+        circle_marker_17e1c646a5294ae193c6cf8cad8b871c.bindPopup(popup_57f1e8f426b246ccb30061acb149f8d4)
+        ;
+
+        
+    
+    
+            var circle_marker_6dc70da9568f452594481ec9e72f0656 = L.circleMarker(
+                [43.4291513, -80.5185179640656],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_cf2000a6ebc84f55ba22b226a5c046e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_336848ae04f14f409c857b38e3dd307d = $(`<div id="html_336848ae04f14f409c857b38e3dd307d" style="width: 100.0%; height: 100.0%;">Southridge Cluster 1 Rating: 5.0</div>`)[0];
+            popup_cf2000a6ebc84f55ba22b226a5c046e5.setContent(html_336848ae04f14f409c857b38e3dd307d);
+        
+
+        circle_marker_6dc70da9568f452594481ec9e72f0656.bindPopup(popup_cf2000a6ebc84f55ba22b226a5c046e5)
+        ;
+
+        
+    
+    
+            var circle_marker_3240b9828b874918a2163032d264de6c = L.circleMarker(
+                [52.286010299999994, -0.184931679580201],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_b6803c2f777644a9abeb12e7747b156a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d8966d2e31142a992d663602b955310 = $(`<div id="html_2d8966d2e31142a992d663602b955310" style="width: 100.0%; height: 100.0%;">St Agnes Cluster 0 Rating: 6.8</div>`)[0];
+            popup_b6803c2f777644a9abeb12e7747b156a.setContent(html_2d8966d2e31142a992d663602b955310);
+        
+
+        circle_marker_3240b9828b874918a2163032d264de6c.bindPopup(popup_b6803c2f777644a9abeb12e7747b156a)
+        ;
+
+        
+    
+    
+            var circle_marker_7930f811d02243a38f208acf36cc535f = L.circleMarker(
+                [43.42779605, -80.4440722850708],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_43b3c67ed6e94253a7560601bcd75631 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89f1e578e8674ab591c044f1775aafc9 = $(`<div id="html_89f1e578e8674ab591c044f1775aafc9" style="width: 100.0%; height: 100.0%;">St Aloysius Cluster 0 Rating: 6.2</div>`)[0];
+            popup_43b3c67ed6e94253a7560601bcd75631.setContent(html_89f1e578e8674ab591c044f1775aafc9);
+        
+
+        circle_marker_7930f811d02243a38f208acf36cc535f.bindPopup(popup_43b3c67ed6e94253a7560601bcd75631)
+        ;
+
+        
+    
+    
+            var circle_marker_b3e89712973049d48df46af6eed04235 = L.circleMarker(
+                [45.27833820000001, -66.0695146],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_42f2f62051a748c4b3d664c6a1024f2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c48b7c20f70417ab90104f1247dc207 = $(`<div id="html_8c48b7c20f70417ab90104f1247dc207" style="width: 100.0%; height: 100.0%;">St John Cluster 0 Rating: 5.6</div>`)[0];
+            popup_42f2f62051a748c4b3d664c6a1024f2d.setContent(html_8c48b7c20f70417ab90104f1247dc207);
+        
+
+        circle_marker_b3e89712973049d48df46af6eed04235.bindPopup(popup_42f2f62051a748c4b3d664c6a1024f2d)
+        ;
+
+        
+    
+    
+            var circle_marker_f3563cce674d44e68f20b1eb65e27719 = L.circleMarker(
+                [53.48289079999999, -2.1388644],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_3a63cb84652748c393d376f2a87f7fd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efba68488ae242089d85e9a1a76b50f0 = $(`<div id="html_efba68488ae242089d85e9a1a76b50f0" style="width: 100.0%; height: 100.0%;">St Luke Cluster 1 Rating: 7.2</div>`)[0];
+            popup_3a63cb84652748c393d376f2a87f7fd1.setContent(html_efba68488ae242089d85e9a1a76b50f0);
+        
+
+        circle_marker_f3563cce674d44e68f20b1eb65e27719.bindPopup(popup_3a63cb84652748c393d376f2a87f7fd1)
+        ;
+
+        
+    
+    
+            var circle_marker_3d54dfef1e0948adb657c04a014a023b = L.circleMarker(
+                [52.3694076, 9.729736],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_3eca1805e3a74a19b02648a868e07317 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebd1ad38323a467e944b1346df2b4c7f = $(`<div id="html_ebd1ad38323a467e944b1346df2b4c7f" style="width: 100.0%; height: 100.0%;">St Matthew Cluster 0 Rating: 7.0</div>`)[0];
+            popup_3eca1805e3a74a19b02648a868e07317.setContent(html_ebd1ad38323a467e944b1346df2b4c7f);
+        
+
+        circle_marker_3d54dfef1e0948adb657c04a014a023b.bindPopup(popup_3eca1805e3a74a19b02648a868e07317)
+        ;
+
+        
+    
+    
+            var circle_marker_ac86a6e0d2cd4b9ea1fe04545a5b44c7 = L.circleMarker(
+                [42.5065685, -92.30540909999999],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_9b6fc75106dc402ba84dc4a2e9112668 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bef749303c14e26a6590abb91a6007e = $(`<div id="html_7bef749303c14e26a6590abb91a6007e" style="width: 100.0%; height: 100.0%;">St Nicholas Cluster 3 Rating: 7.5</div>`)[0];
+            popup_9b6fc75106dc402ba84dc4a2e9112668.setContent(html_7bef749303c14e26a6590abb91a6007e);
+        
+
+        circle_marker_ac86a6e0d2cd4b9ea1fe04545a5b44c7.bindPopup(popup_9b6fc75106dc402ba84dc4a2e9112668)
+        ;
+
+        
+    
+    
+            var circle_marker_30b4f671d4ee4ba1b2bea4546fe6b97a = L.circleMarker(
+                [43.4521811, -80.4824911626131],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_75e3473b67c54729b4916beede8d0173 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fac29b051b9243cf809782967a4f61cd = $(`<div id="html_fac29b051b9243cf809782967a4f61cd" style="width: 100.0%; height: 100.0%;">Suddaby Cluster 0 Rating: 5.1</div>`)[0];
+            popup_75e3473b67c54729b4916beede8d0173.setContent(html_fac29b051b9243cf809782967a4f61cd);
+        
+
+        circle_marker_30b4f671d4ee4ba1b2bea4546fe6b97a.bindPopup(popup_75e3473b67c54729b4916beede8d0173)
+        ;
+
+        
+    
+    
+            var circle_marker_507c3163ff124b7a828723f873c1ecf2 = L.circleMarker(
+                [43.417423799999995, -80.4959862772576],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_77598eb753ba448e9a365985a42eaa3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a289d2f0a4a247dfa265139c023e5a2f = $(`<div id="html_a289d2f0a4a247dfa265139c023e5a2f" style="width: 100.0%; height: 100.0%;">Trillium Cluster 1 Rating: 4.6</div>`)[0];
+            popup_77598eb753ba448e9a365985a42eaa3a.setContent(html_a289d2f0a4a247dfa265139c023e5a2f);
+        
+
+        circle_marker_507c3163ff124b7a828723f873c1ecf2.bindPopup(popup_77598eb753ba448e9a365985a42eaa3a)
+        ;
+
+        
+    
+    
+            var circle_marker_ba0dd52902e548fb8580f831863dbec3 = L.circleMarker(
+                [43.4522328, -80.590945686038],
+                {"bubblingMouseEvents": true, "color": "#b2f396", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b2f396", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_37cb3f0141324fdfa0d7880849d38516 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d111c6796f974a1196d56268c08fb6dc = $(`<div id="html_d111c6796f974a1196d56268c08fb6dc" style="width: 100.0%; height: 100.0%;">Vista Hills Cluster 4 Rating: 7.1</div>`)[0];
+            popup_37cb3f0141324fdfa0d7880849d38516.setContent(html_d111c6796f974a1196d56268c08fb6dc);
+        
+
+        circle_marker_ba0dd52902e548fb8580f831863dbec3.bindPopup(popup_37cb3f0141324fdfa0d7880849d38516)
+        ;
+
+        
+    
+    
+            var circle_marker_730e3ef3a72a4bd197e146aee69a62d2 = L.circleMarker(
+                [43.40645495, -80.5160731255828],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_3d7261b3c843452093070bf21f1cb3fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfc810454be14b3f9dab79cf8f3c06a2 = $(`<div id="html_bfc810454be14b3f9dab79cf8f3c06a2" style="width: 100.0%; height: 100.0%;">W.T. Townshend Cluster 0 Rating: 5.8</div>`)[0];
+            popup_3d7261b3c843452093070bf21f1cb3fc.setContent(html_bfc810454be14b3f9dab79cf8f3c06a2);
+        
+
+        circle_marker_730e3ef3a72a4bd197e146aee69a62d2.bindPopup(popup_3d7261b3c843452093070bf21f1cb3fc)
+        ;
+
+        
+    
+    
+            var circle_marker_3e92888afd124a3494b9f0231d62f50b = L.circleMarker(
+                [43.4493292, -80.5215589419714],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_d77b7abc06c54cde8b1f011239d63a46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3850c25a64749bb8f8ca349a9b9d4e4 = $(`<div id="html_f3850c25a64749bb8f8ca349a9b9d4e4" style="width: 100.0%; height: 100.0%;">Westmount Cluster 0 Rating: 5.2</div>`)[0];
+            popup_d77b7abc06c54cde8b1f011239d63a46.setContent(html_f3850c25a64749bb8f8ca349a9b9d4e4);
+        
+
+        circle_marker_3e92888afd124a3494b9f0231d62f50b.bindPopup(popup_d77b7abc06c54cde8b1f011239d63a46)
+        ;
+
+        
+    
+    
+            var circle_marker_3e6ce6e5c8514e08b050cd879666fe7f = L.circleMarker(
+                [43.44458345, -80.5608811979901],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_9907585629d6422a9216dadc6c2c4ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca4f43527876493782a04576d2d09ece = $(`<div id="html_ca4f43527876493782a04576d2d09ece" style="width: 100.0%; height: 100.0%;">Westvale Cluster 1 Rating: 6.5</div>`)[0];
+            popup_9907585629d6422a9216dadc6c2c4ea3.setContent(html_ca4f43527876493782a04576d2d09ece);
+        
+
+        circle_marker_3e6ce6e5c8514e08b050cd879666fe7f.bindPopup(popup_9907585629d6422a9216dadc6c2c4ea3)
+        ;
+
+        
+    
+    
+            var circle_marker_d47b2b8905f64795951b43e8a44c677a = L.circleMarker(
+                [43.40228945, -80.503744196852],
+                {"bubblingMouseEvents": true, "color": "#4df3ce", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4df3ce", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_69a29ae5cfce42fcb4061169e8b8cec2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcef68a1b9204c6a84680705da907977 = $(`<div id="html_fcef68a1b9204c6a84680705da907977" style="width: 100.0%; height: 100.0%;">Williamsburg Cluster 3 Rating: 7.6</div>`)[0];
+            popup_69a29ae5cfce42fcb4061169e8b8cec2.setContent(html_fcef68a1b9204c6a84680705da907977);
+        
+
+        circle_marker_d47b2b8905f64795951b43e8a44c677a.bindPopup(popup_69a29ae5cfce42fcb4061169e8b8cec2)
+        ;
+
+        
+    
+    
+            var circle_marker_15db0e44ba1342279c23e024309d627e = L.circleMarker(
+                [43.42597615, -80.45367645796041],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_aca67f870b124513942db2d751a96f8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7c7c2c053d14b8eb9857f1b2a34039f = $(`<div id="html_a7c7c2c053d14b8eb9857f1b2a34039f" style="width: 100.0%; height: 100.0%;">Wilson Avenue Cluster 0 Rating: 4.6</div>`)[0];
+            popup_aca67f870b124513942db2d751a96f8c.setContent(html_a7c7c2c053d14b8eb9857f1b2a34039f);
+        
+
+        circle_marker_15db0e44ba1342279c23e024309d627e.bindPopup(popup_aca67f870b124513942db2d751a96f8c)
+        ;
+
+        
+    
+    
+            var circle_marker_da3aa274d84c4ca5a1afdeb80acb36c3 = L.circleMarker(
+                [43.48620585, -80.5339971914904],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_79db4122bd16445dab66302f4f4c9da1);
+        
+    
+        var popup_b733ac5102904df9ace39533eb5fb35c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d871721e2174b2784b8b7b805499f0c = $(`<div id="html_9d871721e2174b2784b8b7b805499f0c" style="width: 100.0%; height: 100.0%;">Winston Churchill Cluster 0 Rating: 5.9</div>`)[0];
+            popup_b733ac5102904df9ace39533eb5fb35c.setContent(html_9d871721e2174b2784b8b7b805499f0c);
+        
+
+        circle_marker_da3aa274d84c4ca5a1afdeb80acb36c3.bindPopup(popup_b733ac5102904df9ace39533eb5fb35c)
+        ;
+
+        
+    
+</script>
