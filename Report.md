@@ -23,7 +23,7 @@ School geographic locations were assigned through geopy and a plot was created d
 <figure class="image"><img src="schools.png" alt="Map of schools."><figcaption>Fig. 1: The distribution of schools in the K-W area.</figcaption></figure><\center>
 
 The Fraser Institute data consists of school Ratings for the 2017-18 school year as well as provincial Rankings out of 3046 schools in the Province of Ontario. 
-<figure class="image"><img src="Fraser_geo.png" alt="Fraser Institute Data."><figcaption>Fig. 2: Fraser Institute data normalized with location coordinates.</figcaption></figure><\center>
+<figure class="image"><img src="Fraser_geo.png" alt="Fraser Institute Data."><figcaption>Fig. 2: Fraser Institute data normalized with location coordinates.</figcaption></figure>
 
 The Fraser data was used to create an **_initial_** clustering of schools based on these two factors _2017-18 Rating_ and _Ranking/3046_.  These metrics were normalized based on the max values, and weighted by a factor of 0.1 so they could be better included with Foursquare data during the analysis and not eclipse the school-neighbourhood venue data.
 
